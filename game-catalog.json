@@ -1,0 +1,82 @@
+{
+  "systems": [
+    {
+      "id": "atari2600",
+      "name": "Atari 2600",
+      "short": "2600",
+      "era": "1977",
+      "core": "stella2014",
+      "mark": "A",
+      "accent": "#ff6d4c",
+      "games": []
+    },
+    {
+      "id": "nes",
+      "name": "Nintendo Entertainment System",
+      "short": "NES",
+      "era": "1983",
+      "core": "nestopia",
+      "mark": "N",
+      "accent": "#ffca58",
+      "games": []
+    },
+    {
+      "id": "gb",
+      "name": "Game Boy",
+      "short": "GB",
+      "era": "1989",
+      "core": "gambatte",
+      "mark": "B",
+      "accent": "#b9d96c",
+      "games": []
+    },
+    {
+      "id": "snes",
+      "name": "Super Nintendo",
+      "short": "SNES",
+      "era": "1990",
+      "core": "snes9x",
+      "mark": "S",
+      "accent": "#a790ff",
+      "games": []
+    },
+    {
+      "id": "gamegear",
+      "name": "Sega Game Gear",
+      "short": "GAME GEAR",
+      "era": "1990",
+      "core": "genesis_plus_gx",
+      "mark": "GG",
+      "accent": "#49b8c4",
+      "romExtensions": [
+        "gg"
+      ],
+      "games": []
+    },
+    {
+      "id": "n64",
+      "name": "Nintendo 64",
+      "short": "N64",
+      "era": "1996",
+      "mark": "64",
+      "accent": "#60d391",
+      "core": "mupen64plus_next",
+      "romExtensions": [
+        "z64",
+        "n64",
+        "v64"
+      ],
+      "games": []
+    },
+    {
+      "id": "gbc",
+      "name": "Game Boy Color",
+      "short": "GBC",
+      "era": "1998",
+      "core": "gambatte",
+      "mark": "C",
+      "accent": "#5bd2c2",
+      "games": []
+    }
+  ]
+}

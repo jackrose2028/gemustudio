@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SNES Studio: ROM analysis and mod workshop</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header id="top">
-  <div class="brand">SNES <span>Studio</span></div>
-  <button id="btnOpen" class="primary" title="Load a .sfc / .smc ROM you own">Open ROM…</button>
-  <button id="btnNew" title="Start a new project from the starter game or a blank ROM">New project…</button>
-  <span class="sep"></span>
-  <button id="btnUndo" title="Ctrl+Z">Undo</button>
-  <button id="btnRedo" title="Ctrl+Y">Redo</button>
-  <span class="sep"></span>
-  <button id="btnSave" class="primary" title="Download the modded ROM">Save ROM</button>
-  <button id="btnIps" title="Download only your changes as an IPS patch (shareable without the ROM)">Export IPS</button>
-  <span id="projname"></span>
-  <input type="file" id="fileRom" accept=".sfc,.smc,.swc,.fig,.nes,.bin,.rom" hidden>
-</header>
-<div id="main">
-  <nav id="nav"></nav>
-  <section id="content"></section>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#101311"><link rel="icon" href="data:,"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"><title>Emu-Mod!</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="page-shell"><header class="topbar"><a class="brand" id="brand-home" href="./" aria-label="Emu-Mod! home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Emu-Mod!</span></a><div class="header-actions"><button class="import-trigger" id="import-folder-button" type="button" aria-label="Import a folder of zipped games"><span class="import-full">IMPORT FOLDER</span><span class="import-short">IMPORT</span></button><button class="import-trigger import-zip-trigger" id="import-zip-button" type="button" aria-label="Choose ZIP files">ZIPs</button><button class="import-trigger import-rom-trigger" id="import-rom-button" type="button" aria-label="Load ROM files directly">ROM</button><button class="import-trigger clear-library-trigger" id="clear-library-button" type="button" aria-label="Delete all games from this browser cache" title="Delete all games and saved states from this browser"><span class="clear-library-full">DELETE GAMES</span><span class="clear-library-short">CLEAR</span></button><span class="clear-cache-feedback" id="clear-cache-feedback" role="status" hidden></span><button class="import-trigger catalog-toggle" id="catalog-toggle" type="button" aria-label="Show all games" title="Show all games" aria-pressed="false" disabled><span aria-hidden="true">🕹</span></button><a class="import-trigger config-toggle" href="config.html" aria-label="Emulator configuration" title="Emulator configuration"><span aria-hidden="true">⚙</span></a><a class="import-trigger reference-toggle" href="emulator-reference.html" aria-label="EmulatorJS-mod technical reference" title="EmulatorJS-mod technical reference">REF</a><a class="import-trigger reference-toggle" href="engine-differences.html" aria-label="EmulatorJS and EmulatorJS-mod differences" title="Engine differences">DIFF</a><a class="import-trigger header-page-link" id="header-links-link" href="links.html" hidden>LINKS</a><input id="folder-picker" type="file" accept=".zip,application/zip" webkitdirectory directory multiple hidden><input id="zip-picker" type="file" accept=".zip,application/zip" multiple hidden><input id="rom-picker" type="file" accept=".a26,.nes,.sfc,.smc,.gb,.gbc,.gg,.z64,.n64,.v64" multiple hidden><div class="library-status"><span class="status-dot"></span><span id="game-count">0 GAMES</span><span class="status-divider"></span><span class="local-label">LOCAL LIBRARY</span></div><a class="play-home-link" href="https://jackrose2028.github.io/play" aria-label="Back to Play Something!"><span aria-hidden="true">↖</span><span class="play-home-long">BACK TO PLAY SOMETHING!</span><span class="play-home-short">PLAY SOMETHING!</span></a></div></header><div class="import-status" id="import-status" role="status" aria-live="polite" hidden><strong id="import-message"></strong><span id="import-detail"></span></div>
+<main><nav class="systems" id="systems" aria-label="Choose a console"></nav><section class="shelf" aria-live="polite"><div class="shelf-heading"><div><span class="eyebrow" id="system-era"></span><h2 id="system-name"></h2></div><div class="shelf-tools"><label class="search-box" id="search-box" hidden><button class="search-commit" id="search-commit" type="button" aria-label="Apply game search" title="Apply search">⌕</button><input id="game-search" type="search" placeholder="Find a game" autocomplete="off" aria-label="Search this system"><kbd>/</kbd></label><label class="view-select"><span>VIEW</span><select id="library-view" aria-label="Library view"><option value="compact-list">Compact list</option><option value="standard-list">Standard list</option><option value="detailed-list">Detailed list</option><option value="grid">Grid</option><option value="compact-grid">Compact grid</option><option value="card-grid">Card grid</option><option value="spacious-cards">Spacious cards</option><option value="tiles">Tiles</option><option value="table">Table</option><option value="console-color">Console colors</option></select></label><span class="shelf-index" id="shelf-index"></span></div></div><nav class="alphabet-filter" id="alphabet-filter" aria-label="Filter games by first character" hidden></nav><div class="filter-bar" id="filter-bar" aria-label="Filter games by metadata" hidden></div><div class="game-grid" id="game-grid" hidden></div></section></main>
 </div>
-<footer id="status"><span id="statusMsg">Ready.</span><span id="statusInfo"></span></footer>
-<div id="modal"><div class="box" id="modalBox"></div></div>
-<div id="toast"></div>
-<div id="dropzone">Drop a ROM here</div>
-<script src="core.js"></script>
-<script src="nes.js"></script>
-<script src="audio.js"></script>
-<script src="codecs.js"></script>
-<script src="games.js"></script>
-<script src="capture.js"></script>
-<script src="guide.js"></script>
-<script src="gen3d.js"></script>
-<script src="app.js"></script>
-</body>
-</html>
+<section class="player-overlay" id="player-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Game player"><div class="player-topline"><div class="player-heading"><span class="live-indicator"></span><span id="player-title">Now playing</span><span id="save-stamp" class="save-stamp" aria-live="polite"></span></div><button class="close-player" id="close-player" aria-label="Close game"><span>ESC</span><b aria-hidden="true">×</b></button></div><div class="player-stage"><div id="emulator-player"></div><div class="visual-overlay" id="visual-overlay" aria-hidden="true" hidden></div></div><div class="touch-deck" id="touch-deck" aria-label="Touch game controls"><div class="touch-left"><div class="touch-dpad" aria-label="Direction pad"><button class="pad-key pad-up" data-pad="4" aria-label="Up">▲</button><button class="pad-key pad-left" data-pad="6" aria-label="Left">◀</button><span class="pad-center" aria-hidden="true"></span><button class="pad-key pad-right" data-pad="7" aria-label="Right">▶</button><button class="pad-key pad-down" data-pad="5" aria-label="Down">▼</button></div><div class="state-controls" id="state-controls" hidden><button class="state-key" id="state-button" type="button" aria-haspopup="menu" aria-expanded="false">STATE</button><span class="state-status" id="state-status" aria-live="polite"></span><div class="state-menu" id="state-menu" role="menu" hidden><button type="button" role="menuitem" data-state-action="save">SAVE</button><button type="button" role="menuitem" data-state-action="load">LOAD</button></div></div></div><div class="touch-mid"><button class="small-key" data-pad="2" data-control="select" aria-label="Select">SELECT</button><button class="small-key" data-pad="3" data-control="start" aria-label="Start">START</button></div><div class="touch-actions"><div class="shoulder-keys" id="shoulder-keys"></div><div class="face-keys" id="face-keys"></div></div></div></div></section><script type="module" src="app.js"></script></body></html>

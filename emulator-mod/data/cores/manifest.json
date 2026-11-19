@@ -1,0 +1,111 @@
+{
+  "generated": "2026-11-19T05:35:42.736Z",
+  "files": {
+    "gambatte-legacy-wasm.7z": 967022,
+    "gambatte-thread-legacy-wasm.7z": 1025361,
+    "gambatte-thread-wasm.7z": 1025721,
+    "gambatte-wasm.7z": 967156,
+    "genesis_plus_gx-legacy-wasm.7z": 1204803,
+    "genesis_plus_gx-thread-legacy-wasm.7z": 1263738,
+    "genesis_plus_gx-thread-wasm.7z": 1262667,
+    "genesis_plus_gx-wasm.7z": 1203661,
+    "mupen64plus_next-legacy-wasm.7z": 1451870,
+    "mupen64plus_next-thread-legacy-wasm.7z": 1527835,
+    "mupen64plus_next-thread-wasm.7z": 1528438,
+    "mupen64plus_next-wasm.7z": 1451795,
+    "nestopia-legacy-wasm.7z": 1218931,
+    "nestopia-thread-legacy-wasm.7z": 1284150,
+    "nestopia-thread-wasm.7z": 1285028,
+    "nestopia-wasm.7z": 1219547,
+    "snes9x-legacy-wasm.7z": 1092437,
+    "snes9x-thread-legacy-wasm.7z": 1154882,
+    "snes9x-thread-wasm.7z": 1156908,
+    "snes9x-wasm.7z": 1093765,
+    "stella2014-legacy-wasm.7z": 1051741,
+    "stella2014-thread-legacy-wasm.7z": 1111224,
+    "stella2014-thread-wasm.7z": 1112143,
+    "stella2014-wasm.7z": 1051659
+  },
+  "cores": {
+    "nestopia": {
+      "name": "nestopia",
+      "extensions": [
+        "fds",
+        "nes",
+        "unif",
+        "unf"
+      ],
+      "defaultWebGL2": false,
+      "supportsMouse": false
+    },
+    "gambatte": {
+      "name": "gambatte",
+      "extensions": [
+        "gb",
+        "gbc",
+        "dmg"
+      ],
+      "defaultWebGL2": false,
+      "supportsMouse": false
+    },
+    "mupen64plus_next": {
+      "name": "mupen64plus_next",
+      "extensions": [
+        "n64",
+        "v64",
+        "z64",
+        "bin",
+        "u1",
+        "ndd",
+        "gb"
+      ],
+      "defaultWebGL2": true,
+      "supportsMouse": false
+    },
+    "snes9x": {
+      "name": "snes9x",
+      "extensions": [
+        "smc",
+        "sfc",
+        "swc",
+        "fig",
+        "bs",
+        "st"
+      ],
+      "defaultWebGL2": false,
+      "supportsMouse": false
+    },
+    "genesis_plus_gx": {
+      "name": "genesis_plus_gx",
+      "extensions": [
+        "m3u",
+        "mdx",
+        "md",
+        "smd",
+        "gen",
+        "bin",
+        "cue",
+        "iso",
+        "chd",
+        "bms",
+        "sms",
+        "gg",
+        "sg",
+        "68k",
+        "sgd"
+      ],
+      "defaultWebGL2": false,
+      "supportsMouse": false
+    },
+    "stella2014": {
+      "name": "stella2014",
+      "extensions": [
+        "a26",
+        "bin",
+        "zip"
+      ],
+      "defaultWebGL2": false,
+      "supportsMouse": false
+    }
+  }
+}
