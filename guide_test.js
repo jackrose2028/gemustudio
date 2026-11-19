@@ -1,0 +1,13 @@
+const C=require('./core.js'); require('./guide.js'); const G=C.Guide; let fails=0;
+const ok=(c,m)=>{ if(!c){fails++;console.log('FAIL',m);} else console.log('ok  ',m); };
+ok(G.STEPS.length===50,'exactly 50 steps'); ok(G.STEPS.every((s,i)=>s.n===i+1),'numbered 1..50');
+ok(G.PHASES.length===5&&G.PHASES.every((_,p)=>G.STEPS.filter(s=>s.phase===p).length===10),'5 phases of 10 steps');
+ok(G.STEPS.every(s=>s.title&&s.why&&s.prompt&&s.prompt.length>20),'every step has title, explanation and prompt');
+ok(new Set(G.STEPS.map(s=>s.title)).size===50,'titles unique');
+const tabs=['overview','game','hex','gfx','scene','pal','audio','text','code','lib','export','open','new'];
+ok(G.STEPS.filter(s=>s.action).every(s=>tabs.includes(s.action.tab)),'all actions target a real tab/command ('+G.STEPS.filter(s=>s.action).length+' have one)');
+ok(G.STEPS.every(s=>!/\b(?:utilize|leverage|synergy)\b/i.test(s.why+s.prompt)),'plain wording');
+const avg=G.STEPS.reduce((n,s)=>n+s.why.split(' ').length,0)/50; ok(avg<40,'explanations are short (avg '+avg.toFixed(1)+' words)');
+const a={1:{text:'A frog who jumps',done:true},2:{text:'platformer'}}; const b=G.brief(a); ok(b.includes('A frog who jumps')&&b.includes('Step 50'),'design brief includes answers and all steps');
+ok(G.aiPrompt(G.STEPS[2],a).includes('A frog who jumps')&&G.aiPrompt(G.STEPS[2],a).includes('step 3 of 50'),'AI prompt carries earlier answers');
+console.log('FAILS',fails); process.exit(fails?1:0);

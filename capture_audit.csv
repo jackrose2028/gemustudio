@@ -1,0 +1,157 @@
+profile_n,game,rom_file,mapping,size_kb,palette_candidates,graphics_regions,preview_sheets,brr_sounds,text_strings,code_lines,files_in_zip,invalid_files,seconds
+1,Super Mario World,Super Mario World (USA).sfc,LoROM,512,400,14,14,30,272,96,208,0,1.4
+2,Super Mario All-Stars,Super Mario All-Stars (USA).sfc,LoROM,2048,400,24,16,141,540,96,344,0,5.0
+3,Donkey Kong Country,Donkey Kong Country (USA) (Rev 2).sfc,HiROM,4096,400,24,16,226,3744,96,514,0,4.3
+4,Super Mario Kart,Super Mario Kart (USA).sfc,HiROM,512,400,18,16,38,134,96,132,0,1.7
+6,Donkey Kong Country 2: Diddy's Kong Quest,Donkey Kong Country 2 - Diddy_s Kong Quest (USA) (En_Fr) (Rev 1).sfc,HiROM,4096,400,24,16,300,5000,96,662,0,4.1
+7,The Legend of Zelda: A Link to the Past,Legend of Zelda_ The - A Link to the Past (USA).sfc,LoROM,1024,400,24,16,35,518,96,132,0,1.2
+8,Super Mario World 2: Yoshi's Island,Super Mario World 2 - Yoshi_s Island (USA) (Rev 1).sfc,LoROM,2048,400,24,16,86,1107,96,234,0,5.4
+9,Street Fighter II Turbo,Street Fighter II Turbo (USA) (Rev 1).sfc,HiROM,2560,400,24,16,130,1427,96,322,0,5.7
+10,Donkey Kong Country 3: Dixie Kong's Double Trouble!,Donkey Kong Country 3 - Dixie Kong_s Double Trouble_ (USA) (En_Fr).sfc,HiROM,4096,400,24,16,237,2867,96,536,0,3.6
+11,Final Fantasy III (US; Final Fantasy VI),Final Fantasy III (USA) (Rev 1).sfc,HiROM,3072,400,24,16,120,1793,96,302,0,2.9
+12,Killer Instinct,Killer Instinct (USA) (Rev 1).sfc,HiROM,4096,400,24,16,205,1267,96,472,0,3.6
+13,Dragon Quest VI: Maboroshi no Daichi,Dragon Quest VI - Realms of Revelation (Japan) _T-En by NoPrgress v0.90b2_ _n_.sfc,HiROM,4096,400,24,16,202,2054,96,466,0,3.2
+14,Star Fox,Star Fox (USA) (Rev 2).sfc,LoROM,1024,400,24,16,56,525,96,174,0,2.7
+15,F-Zero,F-Zero (USA).sfc,LoROM,512,400,13,13,44,697,96,133,0,1.2
+16,Dragon Quest V: Tenkuu no Hanayome,Dragon Quest V - Tenkuu no Hanayome (Japan) _T-En by DeJap _ Partial Translations v2.01_.sfc,LoROM,2048,400,24,16,42,753,96,146,0,7.2
+18,Final Fantasy V,Final Fantasy V (Japan) _T-En by RPGe v1.10_ _Add by Spooniest v2.1_ _Legend of the Crystals_.sfc,HiROM,2560,400,24,16,97,1486,96,256,0,2.5
+19,Chrono Trigger,Chrono Trigger (USA).sfc,HiROM,4096,400,24,16,121,1937,96,304,0,4.9
+20,Super Mario RPG: Legend of the Seven Stars,Super Mario RPG - Legend of the Seven Stars (USA).sfc,LoROM,4096,400,24,16,189,5000,96,440,0,4.7
+21,Super Street Fighter II,Super Street Fighter II (USA) (Rev 1).sfc,HiROM,4096,400,24,16,209,2197,96,480,0,5.5
+22,SimCity,SimCity (USA).sfc,LoROM,512,400,12,12,19,111,96,80,0,1.6
+23,Mortal Kombat II,Mortal Kombat II (USA) (Rev 1).sfc,HiROM,3072,400,24,16,123,1638,96,308,0,3.1
+24,Secret of Mana,Secret of Mana (USA).sfc,HiROM,2048,400,24,16,68,2510,96,198,0,3.8
+25,The Lion King,Lion King_ The (USA).sfc,HiROM,3072,400,24,16,178,1266,96,418,0,4.5
+26,Final Fantasy II (US; Final Fantasy IV),Final Fantasy II (USA) (Rev 1).sfc,LoROM,1024,400,24,16,40,1095,96,142,0,1.6
+27,Disney's Aladdin,Aladdin (USA).sfc,LoROM,1280,400,24,16,80,1103,96,222,0,2.0
+31,Mortal Kombat 3,Ultimate Mortal Kombat 3 (USA).sfc,HiROM,4096,400,24,16,104,2192,96,270,0,2.4
+32,Dragon Ball Z (Super Saiya Densetsu / Hyper Dimension / La Légende Saien),Dragon Ball Z - Hyper Dimension (Japan) _T-En by Twilight Translations v1.00_.sfc,LoROM,3072,400,24,16,113,526,96,288,0,3.4
+32,Dragon Ball Z (Super Saiya Densetsu / Hyper Dimension / La Légende Saien),Dragon Ball Z - La Legende Saien (France).sfc,LoROM,2048,400,24,16,142,1082,96,346,0,2.9
+32,Dragon Ball Z (Super Saiya Densetsu / Hyper Dimension / La Légende Saien),Dragon Ball Z - Super Saiya Densetsu (Japan) (Rev 1) _T-En by Klepto Software v1.02_.sfc,LoROM,1024,400,24,16,70,193,96,202,0,1.4
+33,Kirby Super Star,Kirby Super Star (USA).sfc,LoROM,4096,400,24,16,97,1872,96,256,0,3.5
+34,Super Metroid,Super Metroid (Japan_ USA) (En_Ja).sfc,LoROM,3072,400,24,16,241,1092,96,544,0,5.0
+36,Dragon Quest III: Soshite Densetsu e...,Dragon Quest III - And into the Legend... (Japan) _T-En by DQ Translations v1.1_ _n_.sfc,ExHiROM,6144,400,24,16,189,2636,96,440,0,60.6
+38,The Magical Quest Starring Mickey Mouse,Magical Quest Starring Mickey Mouse_ The (USA) (Rev 1).sfc,LoROM,1024,400,24,16,49,860,96,160,0,1.6
+40,Super Ghouls 'n Ghosts,Super Ghouls _N Ghosts (USA).sfc,LoROM,1024,400,24,16,60,507,96,182,0,2.5
+42,Mega Man X,Mega Man X (USA) (Rev 1).sfc,LoROM,1536,400,24,16,56,1033,96,174,0,1.9
+44,Dragon Quest I & II,Dragon Quest I _ II (Japan) _T-En by RPGOne v2.0 DQ_ _Add by Mziab v1.0_.sfc,LoROM,2048,400,24,16,99,855,96,260,0,13.4
+45,Pilotwings,Pilotwings (USA).sfc,LoROM,512,400,24,16,40,818,96,142,0,1.1
+48,NBA Jam Tournament Edition,NBA Jam - Tournament Edition (USA).sfc,LoROM,3072,400,24,16,300,1198,96,662,0,8.1
+51,Mega Man X2,Mega Man X2 (USA).sfc,LoROM,1536,400,23,16,63,957,96,187,0,2.0
+52,Mega Man X3,Mega Man X3 (USA).sfc,LoROM,2048,400,24,16,63,1394,96,188,0,2.3
+53,Kirby's Dream Course,Kirby_s Dream Course (USA).sfc,LoROM,1024,400,24,16,38,320,96,138,0,1.2
+54,Kirby's Dream Land 3,Kirby_s Dream Land 3 (USA).sfc,LoROM,4096,400,24,16,226,513,96,514,0,9.9
+55,Super Bomberman,Super Bomberman (USA).sfc,HiROM,512,273,12,12,43,123,96,128,0,1.5
+56,Super Bomberman 2,Super Bomberman 2 (USA).sfc,HiROM,1024,400,24,16,91,274,96,244,0,2.9
+57,Super Bomberman 3,Super Bomberman 3 (Europe).sfc,HiROM,1536,400,24,16,76,475,96,214,0,4.0
+58,Tetris Attack,Tetris Attack (USA) (En_Ja).sfc,LoROM,1024,400,24,16,66,246,96,194,0,1.6
+59,EarthBound,EarthBound (USA).sfc,HiROM,3072,400,24,16,224,1367,96,510,0,5.2
+60,ActRaiser,ActRaiser (USA).sfc,LoROM,1024,400,21,16,59,1980,96,177,0,1.5
+61,ActRaiser 2,ActRaiser 2 (USA).sfc,HiROM,1536,400,24,16,56,216,96,174,0,1.6
+62,Illusion of Gaia,Illusion of Gaia (USA).sfc,HiROM,2048,400,24,16,78,534,96,218,0,2.3
+63,Terranigma,Terranigma (Europe).sfc,HiROM,4096,400,24,16,185,5000,96,432,0,3.4
+64,Lufia II: Rise of the Sinistrals,Lufia II - Rise of the Sinistrals (USA).sfc,LoROM,2560,400,24,16,97,2184,96,256,0,2.4
+65,Breath of Fire,Breath of Fire (USA).sfc,LoROM,1536,400,24,16,65,1293,96,192,0,2.0
+66,Breath of Fire II,Breath of Fire II (USA).sfc,HiROM,3072,400,24,16,97,5000,96,256,0,15.9
+67,Ogre Battle: The March of the Black Queen,Ogre Battle - The March of the Black Queen (USA).sfc,LoROM,1536,400,24,16,54,4996,96,170,0,2.1
+68,Tactics Ogre: Let Us Cling Together,Tactics Ogre - Let Us Cling Together (Japan) (Rev 2) _T-En by Aeon Genesis v1.00b_.sfc,LoROM,4096,400,24,16,100,5000,96,262,0,3.9
+69,Super Castlevania IV,Super Castlevania IV (USA).sfc,LoROM,1024,400,24,16,9,245,96,80,0,1.7
+70,Castlevania: Dracula X,Castlevania - Dracula X (USA).sfc,LoROM,2048,400,24,16,14,2085,96,90,0,1.6
+71,Contra III: The Alien Wars,Contra III - The Alien Wars (USA).sfc,LoROM,1024,400,24,16,42,223,96,146,0,1.4
+72,Axelay,Axelay (USA).sfc,LoROM,1024,328,20,16,47,154,96,152,0,1.5
+73,Gradius III,Gradius III (USA).sfc,LoROM,512,400,11,11,10,102,96,59,0,1.0
+74,R-Type III: The Third Lightning,R-Type III (USA).sfc,LoROM,2048,400,24,16,187,1033,96,436,0,31.8
+75,U.N. Squadron,U.N. Squadron (USA).sfc,LoROM,1024,400,24,16,109,382,96,280,0,1.9
+76,Teenage Mutant Ninja Turtles IV: Turtles in Time,Teenage Mutant Ninja Turtles IV - Turtles in Time (USA).sfc,LoROM,1024,400,24,16,59,257,96,180,0,2.0
+77,The Legend of the Mystical Ninja,Legend of the Mystical Ninja_ The (USA).sfc,LoROM,1024,400,13,13,27,1773,96,99,0,1.3
+78,Sunset Riders,Sunset Riders (USA).sfc,LoROM,1024,400,24,16,54,404,96,170,0,3.9
+79,Zombies Ate My Neighbors,Zombies Ate My Neighbors (USA).sfc,LoROM,1024,400,14,14,118,446,96,284,0,1.3
+80,Goof Troop,Goof Troop (USA).sfc,LoROM,512,400,24,16,22,668,96,106,0,1.1
+81,Super Star Wars,Super Star Wars (USA) (Rev 1).sfc,LoROM,1024,400,24,16,38,551,96,138,0,2.4
+82,Super Star Wars: The Empire Strikes Back,Super Star Wars - The Empire Strikes Back (USA) (Rev 1).sfc,LoROM,1536,400,24,16,57,626,96,176,0,3.2
+83,Super Star Wars: Return of the Jedi,Super Star Wars - Return of the Jedi (USA) (Rev 1).sfc,LoROM,2048,400,24,16,86,1109,96,234,0,3.1
+85,The Jungle Book,Jungle Book_ The (USA).sfc,LoROM,2048,400,24,16,237,658,96,536,0,2.7
+86,Toy Story,Toy Story (USA).sfc,HiROM,4096,400,24,16,261,1614,96,584,0,3.4
+87,The Flintstones,Flintstones_ The - The Treasure of Sierra Madrock (USA).sfc,LoROM,1024,400,24,16,27,344,96,116,0,1.2
+88,Batman Returns,Batman Returns (USA).sfc,LoROM,1024,400,19,16,46,307,96,149,0,1.6
+89,Spider-Man and Venom: Maximum Carnage,Spider-Man - Venom - Maximum Carnage (USA).sfc,LoROM,2048,400,24,16,175,452,96,412,0,3.9
+91,NHL '94,NHL _94 (USA).sfc,LoROM,1024,400,21,16,36,1505,96,131,0,1.5
+96,International Superstar Soccer Deluxe,International Superstar Soccer Deluxe (USA).sfc,LoROM,2048,400,24,16,97,785,96,256,0,2.0
+97,Super Tennis,Super Tennis (USA).sfc,LoROM,512,400,18,16,39,404,96,134,0,1.5
+98,Super Punch-Out!!,Super Punch-Out__ (USA).sfc,LoROM,2048,400,24,16,110,598,96,282,0,4.5
+100,Harvest Moon,Harvest Moon (USA).sfc,LoROM,2048,400,24,16,46,245,96,154,0,9.8
+101,Super Adventure Island,Super Adventure Island (USA).sfc,LoROM,1024,400,24,16,79,353,96,220,0,2.3
+102,Super Adventure Island II,Super Adventure Island II (USA).sfc,HiROM,1536,400,24,16,153,647,96,368,0,4.3
+105,Animaniacs,Animaniacs (USA).sfc,LoROM,1024,400,16,16,27,582,96,108,0,1.5
+110,Biker Mice from Mars,Biker Mice from Mars (USA).sfc,LoROM,1024,400,22,16,43,760,96,146,0,1.3
+111,Blackthorne,Blackthorne (USA).sfc,LoROM,1024,400,16,16,43,571,96,140,0,1.9
+112,Brain Lord,Brain Lord (USA).sfc,HiROM,1536,400,24,16,137,418,96,336,0,2.5
+113,Bust-A-Move,Bust-A-Move (USA).sfc,LoROM,512,400,24,16,41,218,96,144,0,2.2
+116,Cool Spot,Cool Spot (USA).sfc,LoROM,1024,400,24,16,68,191,96,198,0,1.6
+117,Cybernator,Cybernator (USA).sfc,LoROM,1024,400,24,16,47,874,96,156,0,1.4
+118,Demon's Crest,Demon_s Crest (USA).sfc,LoROM,2048,400,24,16,111,955,96,284,0,2.5
+120,Earthworm Jim,Earthworm Jim (USA).sfc,HiROM,3072,400,24,16,156,1768,96,374,0,3.6
+121,Earthworm Jim 2,Earthworm Jim 2 (USA).sfc,HiROM,3072,400,24,16,171,2461,96,404,0,4.5
+122,E.V.O.: Search for Eden,E.V.O. - Search for Eden (USA).sfc,LoROM,1536,400,24,16,87,1876,96,236,0,4.9
+123,Fatal Fury,Fatal Fury (USA).sfc,LoROM,1536,400,24,16,94,335,96,250,0,1.8
+124,Fatal Fury 2,Fatal Fury 2 (USA).sfc,HiROM,2560,400,24,16,77,683,96,216,0,3.1
+125,Fatal Fury Special,Fatal Fury Special (USA).sfc,HiROM,4096,400,24,16,131,1942,96,324,0,3.9
+127,Firepower 2000,Firepower 2000 (USA).sfc,LoROM,1024,400,17,16,50,1081,96,155,0,1.4
+128,Flashback: The Quest for Identity,Flashback - The Quest for Identity (USA) (En_Fr_De).sfc,HiROM,2048,400,24,16,136,2742,96,334,0,2.3
+130,Hagane: The Final Conflict,Hagane - The Final Conflict (USA).sfc,HiROM,2048,400,24,16,126,721,96,314,0,12.8
+132,HyperZone,HyperZone (USA).sfc,LoROM,512,400,24,16,31,203,96,124,0,1.2
+133,Inspector Gadget,Inspector Gadget (USA).sfc,HiROM,1024,400,24,16,86,620,96,234,0,1.4
+135,Joe & Mac,Joe _ Mac (USA).sfc,LoROM,1024,400,24,16,85,287,96,232,0,1.8
+136,Joe & Mac 2: Lost in the Tropics,Joe _ Mac 2 - Lost in the Tropics (USA).sfc,LoROM,1024,400,24,16,29,235,96,120,0,1.4
+138,Jurassic Park,Jurassic Park (USA) (Rev 1).sfc,LoROM,2048,400,24,16,183,1137,96,428,0,2.4
+140,King of Dragons,King of Dragons (USA).sfc,HiROM,2048,400,24,16,219,508,96,500,0,2.6
+141,King of the Monsters,King of the Monsters (USA).sfc,LoROM,1024,400,24,16,63,274,96,188,0,2.4
+142,Knights of the Round,Knights of the Round (USA).sfc,LoROM,1536,400,24,16,125,339,96,312,0,1.9
+143,Magical Quest 2: The Great Circus Mystery,Great Circus Mystery Starring Mickey _ Minnie_ The (USA).sfc,HiROM,1536,400,24,16,54,1174,96,170,0,2.2
+145,Magic Sword,Magic Sword (USA).sfc,LoROM,1024,400,14,14,96,566,96,240,0,1.4
+146,Mickey Mania: The Timeless Adventures of Mickey Mouse,Mickey Mania - The Timeless Adventures of Mickey Mouse (USA).sfc,LoROM,2048,400,24,16,50,885,96,162,0,1.9
+148,Nosferatu,Nosferatu (USA).sfc,LoROM,2048,400,24,16,96,926,96,254,0,2.2
+149,Pocky & Rocky,Pocky _ Rocky (USA).sfc,LoROM,1024,400,24,16,38,290,96,138,0,1.6
+150,Pocky & Rocky 2,Pocky _ Rocky 2 (USA).sfc,LoROM,1536,400,24,16,198,241,96,458,0,1.9
+158,Alien 3,Alien 3 (USA) (Rev 1).sfc,LoROM,1024,400,24,16,91,539,96,244,0,1.7
+159,Arcana,Arcana (USA).sfc,LoROM,1024,400,24,16,38,2124,96,138,0,1.5
+160,Ardy Lightfoot,Ardy Lightfoot (USA).sfc,LoROM,1024,400,24,16,79,435,96,220,0,1.7
+162,Bahamut Lagoon,Bahamut Lagoon (Japan) _T-En by Tom _ Near v1.2_.sfc,ExHiROM,8192,400,24,16,300,1764,96,662,0,57.5
+164,Bass Masters Classic,BASS Masters Classic - Pro Edition (USA).sfc,LoROM,2048,400,24,16,62,2551,96,186,0,3.2
+171,BioMetal,BioMetal (USA).sfc,LoROM,1024,400,24,16,150,336,96,362,0,1.7
+174,Boxing Legends of the Ring,Boxing Legends of the Ring (USA).sfc,LoROM,1024,400,24,16,45,479,96,152,0,1.7
+177,Bugs Bunny Rabbit Rampage,Bugs Bunny - Rabbit Rampage (USA).sfc,LoROM,1536,400,24,16,97,540,96,256,0,2.3
+178,Cannon Fodder,Cannon Fodder (Europe).sfc,LoROM,1536,400,24,16,78,647,96,218,0,1.8
+185,Clue,Clue (USA).sfc,LoROM,512,400,21,16,6,783,96,71,0,1.2
+190,Daffy Duck: The Marvin Missions,Daffy Duck - The Marvin Missions (USA).sfc,LoROM,1024,400,24,16,101,409,96,264,0,1.6
+197,Dragon View,Dragon View (USA).sfc,LoROM,2048,400,24,16,163,1158,96,388,0,2.2
+211,Faceball 2000,Faceball 2000 (USA).sfc,LoROM,512,400,16,16,9,590,96,72,0,1.0
+216,First Samurai,First Samurai (USA).sfc,LoROM,512,400,11,11,23,347,96,85,0,1.2
+228,Indiana Jones' Greatest Adventures,Indiana Jones_ Greatest Adventures (USA).sfc,LoROM,2048,400,24,16,90,509,96,242,0,3.4
+236,Jungle Strike,Jungle Strike (USA).sfc,LoROM,2048,400,24,16,155,4720,96,372,0,2.0
+239,King Arthur's World,King Arthur_s World (USA).sfc,LoROM,512,400,18,16,42,494,96,140,0,1.1
+240,King of the Monsters 2,King of the Monsters 2 (USA).sfc,HiROM,2048,400,24,16,99,569,96,260,0,7.5
+245,Lost Vikings,Lost Vikings_ The (USA).sfc,LoROM,1024,400,14,14,80,1127,96,208,0,2.3
+246,Lost Vikings 2,Lost Vikings 2 (USA).sfc,LoROM,1024,400,12,12,99,1665,96,240,0,1.7
+253,Metal Marines,Metal Marines (USA).sfc,LoROM,1536,400,24,16,152,108,96,366,0,2.1
+255,Mickey's Ultimate Challenge,Mickey_s Ultimate Challenge (USA).sfc,LoROM,1024,400,24,16,51,306,96,164,0,1.8
+256,Mortal Kombat,Mortal Kombat (USA) (Rev 1).sfc,LoROM,2048,400,24,16,56,820,96,174,0,2.9
+259,Musya,Musya - The Classic Japanese Tale of Horror (USA).sfc,LoROM,1024,400,24,16,61,211,96,184,0,1.9
+262,On the Ball,On the Ball (USA).sfc,LoROM,1024,400,24,16,26,564,96,114,0,1.3
+263,Operation Logic Bomb,Operation Logic Bomb - The Ultimate Search _ Destroy (USA).sfc,LoROM,1024,400,24,16,88,909,96,238,0,1.6
+264,Out of This World,Out of This World (USA).sfc,LoROM,1024,400,24,16,61,469,96,184,0,2.3
+269,Phalanx,Phalanx (USA).sfc,LoROM,1024,400,24,16,77,401,96,216,0,1.6
+271,Populous,Populous (USA).sfc,LoROM,512,400,10,10,36,257,96,108,0,1.6
+273,Prehistorik Man,Prehistorik Man (USA) (En_Fr_Es).sfc,LoROM,1024,400,21,16,57,276,96,173,0,1.3
+276,Radical Rex,Radical Rex (USA).sfc,LoROM,1024,400,23,16,56,317,96,173,0,2.3
+285,RoboCop versus The Terminator,RoboCop versus The Terminator (USA).sfc,LoROM,1024,400,15,15,62,558,96,175,0,1.3
+287,Saturday Night Slam Masters,Saturday Night Slam Masters (USA).sfc,HiROM,3072,400,24,16,255,1480,96,572,0,4.9
+288,Scooby-Doo Mystery,Scooby-Doo Mystery (USA).sfc,LoROM,2048,400,24,16,149,1480,96,360,0,1.7
+289,Secret of Evermore,Secret of Evermore (USA).sfc,HiROM,3072,400,24,16,105,2421,96,272,0,5.3
+290,Shadowrun,Shadowrun (USA).sfc,LoROM,1024,400,16,16,111,537,96,276,0,2.1
+292,Shien's Revenge,Shien_s Revenge (USA).sfc,LoROM,2048,400,24,16,139,1878,96,340,0,3.6
+293,Side Pocket,Side Pocket (USA).sfc,LoROM,1024,400,20,16,46,316,96,150,0,2.6
+294,SimAnt,SimAnt - The Electronic Ant Colony (USA).sfc,LoROM,1024,400,24,16,43,1546,96,148,0,2.2
+295,Skyblazer,Skyblazer (USA).sfc,LoROM,1024,400,24,16,77,1279,96,216,0,2.2
+297,Soldiers of Fortune,Soldiers of Fortune (USA).sfc,HiROM,1536,400,24,16,29,476,96,120,0,2.9
+298,Sparkster,Sparkster (USA).sfc,LoROM,1024,400,16,16,21,500,96,96,0,1.9

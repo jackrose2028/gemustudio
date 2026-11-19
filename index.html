@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNES Studio: ROM analysis and mod workshop</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header id="top">
+  <div class="brand">SNES <span>Studio</span></div>
+  <button id="btnOpen" class="primary" title="Load a .sfc / .smc ROM you own">Open ROM…</button>
+  <button id="btnNew" title="Start a new project from the starter game or a blank ROM">New project…</button>
+  <span class="sep"></span>
+  <button id="btnUndo" title="Ctrl+Z">Undo</button>
+  <button id="btnRedo" title="Ctrl+Y">Redo</button>
+  <span class="sep"></span>
+  <button id="btnSave" class="primary" title="Download the modded ROM">Save ROM</button>
+  <button id="btnIps" title="Download only your changes as an IPS patch (shareable without the ROM)">Export IPS</button>
+  <span id="projname"></span>
+  <input type="file" id="fileRom" accept=".sfc,.smc,.swc,.fig,.nes,.bin,.rom" hidden>
+</header>
+<div id="main">
+  <nav id="nav"></nav>
+  <section id="content"></section>
+</div>
+<footer id="status"><span id="statusMsg">Ready.</span><span id="statusInfo"></span></footer>
+<div id="modal"><div class="box" id="modalBox"></div></div>
+<div id="toast"></div>
+<div id="dropzone">Drop a ROM here</div>
+<script src="core.js"></script>
+<script src="nes.js"></script>
+<script src="audio.js"></script>
+<script src="codecs.js"></script>
+<script src="games.js"></script>
+<script src="capture.js"></script>
+<script src="guide.js"></script>
+<script src="gen3d.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
